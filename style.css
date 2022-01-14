@@ -1,3 +1,40 @@
 body {
-  background-color: salmon;
+  background-color: #344055;
+}
+h1 {
+  background-color: #888098;
+  letter-spacing: 12px;
+  color: #ffffff;
+  font-family: monospace;
+}
+p {
+  font-family: fantasy;
+}
+img {
+  width: 50%;
+}
+nav {
+  list-style-type: none;
+  background-color: #266DD3;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14x 50x;
+}
+
+li a:hover {
+  background-color: antiquewhite;
+  color: #4281a4;
 }
